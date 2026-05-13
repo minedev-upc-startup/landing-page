@@ -366,6 +366,94 @@ section:nth-child(even) {
 }
 
 /* ============================================================
+   PLANS
+   ============================================================ */
+.plans__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--mt-space-6);
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.plan__card {
+  background: var(--mt-color-bg-base);
+  border: 1px solid var(--mt-color-border-subtle);
+  border-radius: var(--mt-radius-lg);
+  padding: var(--mt-space-8);
+  transition:
+    border-color 150ms ease,
+    transform 150ms ease;
+}
+
+.plan__card:hover {
+  border-color: var(--mt-color-primary);
+  transform: translateY(-4px);
+}
+
+.plan__card--featured {
+  border-color: var(--mt-color-primary);
+  box-shadow: 0 0 0 1px rgba(245, 166, 35, 0.2);
+}
+
+.plan__badge {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  border-radius: 999px;
+  padding: 6px 12px;
+  color: var(--mt-color-text-on-primary);
+  background: var(--mt-color-primary);
+  margin-bottom: var(--mt-space-4);
+}
+
+.plan__badge--alt {
+  background: var(--mt-color-bg-overlay);
+  color: var(--mt-color-primary);
+  border: 1px solid var(--mt-color-primary);
+}
+
+.plan__price {
+  margin: 0 0 var(--mt-space-6);
+  font-family: var(--mt-font-display);
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 1;
+}
+
+.plan__currency {
+  font-size: 24px;
+  color: var(--mt-color-text-secondary);
+  margin-right: var(--mt-space-1);
+}
+
+.plan__period {
+  font-size: 18px;
+  color: var(--mt-color-text-secondary);
+  margin-left: var(--mt-space-1);
+}
+
+.plan__features {
+  margin: 0 0 var(--mt-space-8);
+  padding-left: 20px;
+}
+
+.plan__features li {
+  color: var(--mt-color-text-secondary);
+  margin-bottom: var(--mt-space-3);
+}
+
+.plan__features li::marker {
+  color: var(--mt-color-primary);
+}
+
+.plan__cta {
+  width: 100%;
+}
+
+/* ============================================================
    TEAM
    ============================================================ */
 .team__grid {
@@ -397,6 +485,16 @@ section:nth-child(even) {
   align-items: center;
   justify-content: center;
   margin: 0 auto var(--mt-space-4);
+}
+
+.team__avatar--photo-slot {
+  background: var(--mt-color-bg-overlay);
+  border: 1px dashed var(--mt-color-border-strong);
+  color: var(--mt-color-text-secondary);
+  font-size: 11px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  padding: var(--mt-space-2);
 }
 
 .team__card h3 {
@@ -589,6 +687,9 @@ section:nth-child(even) {
   }
   .features__grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .plans__grid {
+    grid-template-columns: 1fr;
   }
   .team__grid {
     grid-template-columns: repeat(2, 1fr);
