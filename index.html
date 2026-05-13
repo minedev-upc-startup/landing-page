@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="MineTrack — Plataforma B2B para el alquiler de maquinaria minera pesada. Conectamos propietarios de equipos con empresas mineras de forma rápida y segura."
+    />
+    <title>MineTrack — Smart rental of mining machinery</title>
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/primeicons@7.0.0/primeicons.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container topbar__inner">
+        <a href="#hero" class="topbar__brand">MineTrack</a>
+        <nav class="topbar__nav">
+          <a href="#about" data-i18n="nav.about">About</a>
+          <a href="#how" data-i18n="nav.how">How it works</a>
+          <a href="#features" data-i18n="nav.features">Features</a>
+          <a href="#team" data-i18n="nav.team">Team</a>
+          <a href="#faq" data-i18n="nav.faq">FAQ</a>
+        </nav>
+        <div class="topbar__lang">
+          <button class="lang-btn active" data-lang="es">ES</button>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero" id="hero">
+      <div class="container hero__inner">
+        <h1 class="hero__title" data-i18n="hero.title">
+          Alquiler inteligente de maquinaria minera
+        </h1>
+        <p class="hero__subtitle" data-i18n="hero.subtitle">
+          La plataforma B2B que conecta propietarios de maquinaria pesada con
+          empresas mineras que necesitan equipos. Sin intermediarios
+          complicados, sin papeleo manual.
+        </p>
+        <div class="hero__actions">
+          <a href="#cta" class="btn btn--primary" data-i18n="hero.ctaOwner"
+            >Soy propietario</a
+          >
+          <a href="#cta" class="btn btn--ghost" data-i18n="hero.ctaClient"
+            >Soy empresa minera</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container">
+        <h2 class="section__title" data-i18n="about.title">Sobre nosotros</h2>
+        <p class="section__lead" data-i18n="about.body">
+          MineTrack nace de una necesidad real en el sector minero peruano: la
+          dificultad de conectar propietarios de maquinaria pesada con empresas
+          que necesitan alquilarla. Centralizamos catálogo, solicitudes,
+          contratos y monitoreo IoT en una sola plataforma.
+        </p>
+      </div>
+    </section>
+
+    <section class="how" id="how">
+      <div class="container">
+        <h2 class="section__title" data-i18n="how.title">¿Cómo funciona?</h2>
+
+        <div class="how__grid">
+          <article class="how__card">
+            <div class="how__badge" data-i18n="how.ownerLabel">
+              Para propietarios
+            </div>
+            <ol class="how__steps">
+              <li data-i18n="how.owner1">
+                Registra tus máquinas con fotos, especificaciones y tarifa por
+                hora.
+              </li>
+              <li data-i18n="how.owner2">
+                Recibe solicitudes de alquiler de empresas mineras verificadas.
+              </li>
+              <li data-i18n="how.owner3">
+                Aprueba o rechaza con un clic. Define disponibilidad y reglas.
+              </li>
+              <li data-i18n="how.owner4">
+                Cobra por horas reales operadas, no por días calendario.
+              </li>
+            </ol>
+          </article>
+
+          <article class="how__card">
+            <div class="how__badge how__badge--alt" data-i18n="how.clientLabel">
+              Para empresas mineras
+            </div>
+            <ol class="how__steps">
+              <li data-i18n="how.client1">
+                Navega el catálogo público con filtros por tipo, marca y rango
+                de precio.
+              </li>
+              <li data-i18n="how.client2">
+                Solicita una máquina para un rango de fechas específico.
+              </li>
+              <li data-i18n="how.client3">
+                Recibe aprobación, contrato PDF y código de seguimiento.
+              </li>
+              <li data-i18n="how.client4">
+                Monitorea ubicación, horas de motor y estado en tiempo real.
+              </li>
+            </ol>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <div class="container">
+        <h2 class="section__title" data-i18n="features.title">
+          Características principales
+        </h2>
+
+        <div class="features__grid">
+          <article class="feature">
+            <i class="pi pi-list feature__icon"></i>
+            <h3 data-i18n="features.f1Title">Catálogo centralizado</h3>
+            <p data-i18n="features.f1Body">
+              Cada máquina con fotos, ficha técnica, tarifa y estado en tiempo
+              real.
+            </p>
+          </article>
+          <article class="feature">
+            <i class="pi pi-file feature__icon"></i>
+            <h3 data-i18n="features.f2Title">Contratos automáticos</h3>
+            <p data-i18n="features.f2Body">
+              PDF generado al aprobar el alquiler con todos los términos
+              congelados.
+            </p>
+          </article>
+          <article class="feature">
+            <i class="pi pi-wifi feature__icon"></i>
+            <h3 data-i18n="features.f3Title">Monitoreo IoT</h3>
+            <p data-i18n="features.f3Body">
+              GPS, horas de motor, temperatura y vibración — todo en vivo.
+            </p>
+          </article>
+          <article class="feature">
+            <i class="pi pi-clock feature__icon"></i>
+            <h3 data-i18n="features.f4Title">Facturación por horas</h3>
+            <p data-i18n="features.f4Body">
+              Cobro automático sobre horas reales operadas, no calendario.
+            </p>
+          </article>
+          <article class="feature">
+            <i class="pi pi-shield feature__icon"></i>
+            <h3 data-i18n="features.f5Title">Sistema de reputación</h3>
+            <p data-i18n="features.f5Body">
+              Reseñas verificadas después de cada alquiler cerrado.
+            </p>
+          </article>
+          <article class="feature">
+            <i class="pi pi-globe feature__icon"></i>
+            <h3 data-i18n="features.f6Title">Multidioma</h3>
+            <p data-i18n="features.f6Body">
+              Disponible en español e inglés desde el día uno.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="team" id="team">
+      <div class="container">
+        <h2 class="section__title" data-i18n="team.title">Nuestro equipo</h2>
+        <p class="section__lead" data-i18n="team.body">
+          Estudiantes de Ingeniería de Software de la UPC, construyendo
+          MineTrack como proyecto del curso Aplicaciones Web (1ASI0730).
+        </p>
+
+        <div class="team__grid">
+          <article class="team__card">
+            <div class="team__avatar">SA</div>
+            <h3>Sebastian Aiquipa</h3>
+            <p class="team__role" data-i18n="team.role.lead">
+              Tech Lead / Arquitectura
+            </p>
+          </article>
+          <article class="team__card">
+            <div class="team__avatar">TM</div>
+            <h3>Teammate 2</h3>
+            <p class="team__role" data-i18n="team.role.catalog">Catálogo</p>
+          </article>
+          <article class="team__card">
+            <div class="team__avatar">TM</div>
+            <h3>Teammate 3</h3>
+            <p class="team__role" data-i18n="team.role.rentals">
+              Proceso de Alquiler
+            </p>
+          </article>
+          <article class="team__card">
+            <div class="team__avatar">TM</div>
+            <h3>Teammate 4</h3>
+            <p class="team__role" data-i18n="team.role.iot">IoT / Monitoreo</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq" id="faq">
+      <div class="container">
+        <h2 class="section__title" data-i18n="faq.title">
+          Preguntas frecuentes
+        </h2>
+
+        <div class="faq__list">
+          <details class="faq__item">
+            <summary data-i18n="faq.q1">
+              ¿MineTrack cobra comisión por alquiler?
+            </summary>
+            <p data-i18n="faq.a1">
+              En esta primera versión no hay comisiones. El modelo de
+              monetización se definirá en próximas iteraciones del producto.
+            </p>
+          </details>
+          <details class="faq__item">
+            <summary data-i18n="faq.q2">
+              ¿Necesito tener dispositivos IoT instalados en mis máquinas?
+            </summary>
+            <p data-i18n="faq.a2">
+              No es obligatorio. Las funcionalidades de monitoreo IoT son
+              opcionales y se activan por máquina cuando el dispositivo esté
+              instalado.
+            </p>
+          </details>
+          <details class="faq__item">
+            <summary data-i18n="faq.q3">
+              ¿Cómo se calcula el costo final del alquiler?
+            </summary>
+            <p data-i18n="faq.a3">
+              El costo se calcula sobre horas operadas reales (medidas por el
+              horómetro), con un mínimo diario garantizado para el propietario.
+              Tarifas se congelan al momento de aprobación.
+            </p>
+          </details>
+          <details class="faq__item">
+            <summary data-i18n="faq.q4">
+              ¿En qué regiones del Perú opera MineTrack?
+            </summary>
+            <p data-i18n="faq.a4">
+              Iniciamos operaciones piloto en las zonas mineras de Arequipa,
+              Cajamarca y Junín, con expansión prevista a todo el territorio
+              nacional.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" id="cta">
+      <div class="container cta__inner">
+        <h2 data-i18n="cta.title">¿Listo para empezar?</h2>
+        <p data-i18n="cta.body">
+          Únete a la red de propietarios y empresas mineras que ya están usando
+          MineTrack.
+        </p>
+        <div class="cta__actions">
+          <a
+            href="https://minetrack-frontend.web.app"
+            target="_blank"
+            class="btn btn--primary"
+            data-i18n="cta.access"
+            >Acceder a la plataforma</a
+          >
+          <a
+            href="mailto:hello@minetrack.app"
+            class="btn btn--ghost"
+            data-i18n="cta.contact"
+            >Contáctanos</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div class="footer__col">
+          <div class="footer__brand">MineTrack</div>
+          <p class="footer__tagline" data-i18n="footer.tagline">
+            Smart rental of mining machinery
+          </p>
+        </div>
+        <div class="footer__col">
+          <h4 data-i18n="footer.contactTitle">Contacto</h4>
+          <p><i class="pi pi-envelope"></i> hello@minetrack.app</p>
+          <p><i class="pi pi-phone"></i> +51 999 000 111</p>
+          <p><i class="pi pi-map-marker"></i> Lima, Perú</p>
+        </div>
+        <div class="footer__col">
+          <h4 data-i18n="footer.socialTitle">Síguenos</h4>
+          <div class="footer__social">
+            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"
+              ><i class="pi pi-linkedin"></i
+            ></a>
+            <a href="https://twitter.com" target="_blank" aria-label="Twitter"
+              ><i class="pi pi-twitter"></i
+            ></a>
+            <a href="https://facebook.com" target="_blank" aria-label="Facebook"
+              ><i class="pi pi-facebook"></i
+            ></a>
+            <a
+              href="https://github.com/minedev-upc-startup"
+              target="_blank"
+              aria-label="GitHub"
+              ><i class="pi pi-github"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="container footer__bottom">
+        <p>
+          © 2026 MineTrack.
+          <span data-i18n="footer.rights">Todos los derechos reservados.</span>
+        </p>
+        <p class="footer__course" data-i18n="footer.course">
+          UPC — 1ASI0730 Aplicaciones Web — Cycle 5 — 2026-1
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
