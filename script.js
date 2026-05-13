@@ -8,6 +8,7 @@ const translations = {
     "nav.about": "Sobre nosotros",
     "nav.how": "¿Cómo funciona?",
     "nav.features": "Características",
+    "nav.plans": "Planes",
     "nav.team": "Equipo",
     "nav.faq": "FAQ",
 
@@ -33,7 +34,7 @@ const translations = {
     "how.clientLabel": "Para empresas mineras",
     "how.client1":
       "Navega el catálogo público con filtros por tipo, marca y rango de precio.",
-    "how.client2": "Solicita una máquina para un rango de fechas específico.",
+    "how.client2": "Solicitará una máquina para un rango de fechas específico.",
     "how.client3": "Recibe aprobación, contrato PDF y código de seguimiento.",
     "how.client4":
       "Monitorea ubicación, horas de motor y estado en tiempo real.",
@@ -56,10 +57,34 @@ const translations = {
     "features.f6Title": "Multidioma",
     "features.f6Body": "Disponible en español e inglés desde el día uno.",
 
+    "plans.title": "Planes MineTrack",
+    "plans.body":
+      "Elige el plan que mejor se adapta a tu operación y escala según tus necesidades.",
+    "plans.owner.badge": "Propietarios",
+    "plans.owner.title": "Plan Propietario",
+    "plans.owner.f1":
+      "Publica maquinaria ilimitada con fichas técnicas completas.",
+    "plans.owner.f2":
+      "Gestiona solicitudes y disponibilidad desde un solo panel.",
+    "plans.owner.f3":
+      "Recibe pagos y reportes mensuales de uso por equipo.",
+    "plans.company.badge": "Empresas mineras",
+    "plans.company.title": "Plan Empresa Minera",
+    "plans.company.f1":
+      "Búsqueda avanzada y matching prioritario por zona y tipo de equipo.",
+    "plans.company.f2":
+      "Flujos de aprobación interna y contratos automatizados.",
+    "plans.company.f3":
+      "Dashboard operativo con métricas de uso, costo y productividad.",
+    "plans.perMonth": "/ mes",
+    "plans.cta": "Elegir plan",
+
     "team.title": "Nuestro equipo",
     "team.body":
       "Estudiantes de Ingeniería de Software de la UPC, construyendo MineTrack como proyecto del curso Aplicaciones Web (1ASI0730).",
     "team.role.lead": "Tech Lead / Arquitectura",
+    "team.role.frontend": "Frontend developer",
+    "team.photoPending": "Foto",
     "team.role.catalog": "Catálogo",
     "team.role.rentals": "Proceso de Alquiler",
     "team.role.iot": "IoT / Monitoreo",
@@ -95,6 +120,7 @@ const translations = {
     "nav.about": "About",
     "nav.how": "How it works",
     "nav.features": "Features",
+    "nav.plans": "Plans",
     "nav.team": "Team",
     "nav.faq": "FAQ",
 
@@ -141,10 +167,33 @@ const translations = {
     "features.f6Title": "Multilanguage",
     "features.f6Body": "Available in Spanish and English from day one.",
 
+    "plans.title": "MineTrack plans",
+    "plans.body":
+      "Choose the plan that best fits your operation and scale as your needs grow.",
+    "plans.owner.badge": "Owners",
+    "plans.owner.title": "Owner plan",
+    "plans.owner.f1":
+      "Publish unlimited machinery with complete technical sheets.",
+    "plans.owner.f2":
+      "Manage requests and availability from a single dashboard.",
+    "plans.owner.f3": "Receive payments and monthly equipment usage reports.",
+    "plans.company.badge": "Mining companies",
+    "plans.company.title": "Mining company plan",
+    "plans.company.f1":
+      "Advanced search and priority matching by location and equipment type.",
+    "plans.company.f2":
+      "Internal approval flows and automated contract generation.",
+    "plans.company.f3":
+      "Operations dashboard with usage, cost and productivity metrics.",
+    "plans.perMonth": "/ month",
+    "plans.cta": "Choose plan",
+
     "team.title": "Our team",
     "team.body":
       "Software Engineering students at UPC, building MineTrack as a project for the Web Applications course (1ASI0730).",
     "team.role.lead": "Tech Lead / Architecture",
+    "team.role.frontend": "Frontend developer",
+    "team.photoPending": "Photo",
     "team.role.catalog": "Catalog",
     "team.role.rentals": "Rental Process",
     "team.role.iot": "IoT / Monitoring",
