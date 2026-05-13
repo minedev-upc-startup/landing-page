@@ -27,6 +27,7 @@
           <a href="#about" data-i18n="nav.about">About</a>
           <a href="#how" data-i18n="nav.how">How it works</a>
           <a href="#features" data-i18n="nav.features">Features</a>
+          <a href="#plans" data-i18n="nav.plans">Plans</a>
           <a href="#team" data-i18n="nav.team">Team</a>
           <a href="#faq" data-i18n="nav.faq">FAQ</a>
         </nav>
@@ -175,6 +176,68 @@
       </div>
     </section>
 
+    <section class="plans" id="plans">
+      <div class="container">
+        <h2 class="section__title" data-i18n="plans.title">Planes MineTrack</h2>
+        <p class="section__lead" data-i18n="plans.body">
+          Elige el plan que mejor se adapta a tu operación y escala según tus
+          necesidades.
+        </p>
+
+        <div class="plans__grid">
+          <article class="plan__card">
+            <div class="plan__badge" data-i18n="plans.owner.badge">
+              Propietarios
+            </div>
+            <h3 data-i18n="plans.owner.title">Plan Propietario</h3>
+            <p class="plan__price">
+              <span class="plan__currency">$</span>49
+              <span class="plan__period" data-i18n="plans.perMonth">/ mes</span>
+            </p>
+            <ul class="plan__features">
+              <li data-i18n="plans.owner.f1">
+                Publica maquinaria ilimitada con fichas técnicas completas.
+              </li>
+              <li data-i18n="plans.owner.f2">
+                Gestiona solicitudes y disponibilidad desde un solo panel.
+              </li>
+              <li data-i18n="plans.owner.f3">
+                Recibe pagos y reportes mensuales de uso por equipo.
+              </li>
+            </ul>
+            <a href="#cta" class="btn btn--primary plan__cta" data-i18n="plans.cta"
+              >Elegir plan</a
+            >
+          </article>
+
+          <article class="plan__card plan__card--featured">
+            <div class="plan__badge plan__badge--alt" data-i18n="plans.company.badge">
+              Empresas mineras
+            </div>
+            <h3 data-i18n="plans.company.title">Plan Empresa Minera</h3>
+            <p class="plan__price">
+              <span class="plan__currency">$</span>149
+              <span class="plan__period" data-i18n="plans.perMonth">/ mes</span>
+            </p>
+            <ul class="plan__features">
+              <li data-i18n="plans.company.f1">
+                Búsqueda avanzada y matching prioritario por zona y tipo de equipo.
+              </li>
+              <li data-i18n="plans.company.f2">
+                Flujos de aprobación interna y contratos automatizados.
+              </li>
+              <li data-i18n="plans.company.f3">
+                Dashboard operativo con métricas de uso, costo y productividad.
+              </li>
+            </ul>
+            <a href="#cta" class="btn btn--primary plan__cta" data-i18n="plans.cta"
+              >Elegir plan</a
+            >
+          </article>
+        </div>
+      </div>
+    </section>
+
     <section class="team" id="team">
       <div class="container">
         <h2 class="section__title" data-i18n="team.title">Nuestro equipo</h2>
@@ -192,9 +255,16 @@
             </p>
           </article>
           <article class="team__card">
-            <div class="team__avatar">TM</div>
-            <h3>Teammate 2</h3>
-            <p class="team__role" data-i18n="team.role.catalog">Catálogo</p>
+            <div
+              class="team__avatar team__avatar--photo-slot"
+              aria-label="Espacio reservado para juancho.jpeg"
+            >
+              <span data-i18n="team.photoPending">Foto</span>
+            </div>
+            <h3>Juan José Meza</h3>
+            <p class="team__role" data-i18n="team.role.frontend">
+              Frontend developer
+            </p>
           </article>
           <article class="team__card">
             <div class="team__avatar">TM</div>
@@ -271,7 +341,7 @@
         </p>
         <div class="cta__actions">
           <a
-            href="https://minetrack-upc-2026.web.app"
+            href="https://minetrack-frontend.web.app"
             target="_blank"
             class="btn btn--primary"
             data-i18n="cta.access"
