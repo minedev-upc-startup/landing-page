@@ -674,6 +674,19 @@ section:nth-child(even) {
   margin: 0;
 }
 
+.team__avatar--photo {
+  overflow: hidden;
+  padding: 0;
+  background: none;
+}
+
+.team__avatar--photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
 /* ============================================================
    RESPONSIVE
    ============================================================ */
