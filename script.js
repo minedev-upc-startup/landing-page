@@ -66,8 +66,7 @@ const translations = {
       "Publica maquinaria ilimitada con fichas técnicas completas.",
     "plans.owner.f2":
       "Gestiona solicitudes y disponibilidad desde un solo panel.",
-    "plans.owner.f3":
-      "Recibe pagos y reportes mensuales de uso por equipo.",
+    "plans.owner.f3": "Recibe pagos y reportes mensuales de uso por equipo.",
     "plans.company.badge": "Empresas mineras",
     "plans.company.title": "Plan Empresa Minera",
     "plans.company.f1":
@@ -114,6 +113,8 @@ const translations = {
     "footer.socialTitle": "Síguenos",
     "footer.rights": "Todos los derechos reservados.",
     "footer.course": "UPC — 1ASI0730 Aplicaciones Web — Ciclo 5 — 2026-1",
+    "team.role.docs": "Documentación",
+    "team.role.frontend": "Frontend Developer",
   },
 
   en: {
@@ -223,6 +224,8 @@ const translations = {
     "footer.socialTitle": "Follow us",
     "footer.rights": "All rights reserved.",
     "footer.course": "UPC — 1ASI0730 Web Applications — Cycle 5 — 2026-1",
+    "team.role.docs": "Documentation",
+    "team.role.frontend": "Frontend Developer",
   },
 };
 
