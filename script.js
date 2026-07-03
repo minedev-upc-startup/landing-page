@@ -18,9 +18,13 @@ const translations = {
     "hero.ctaOwner": "Soy propietario",
     "hero.ctaClient": "Soy empresa minera",
 
+    "about.eyebrow": "Sobre el producto",
     "about.title": "Sobre nosotros",
     "about.body":
       "MineTrack nace de una necesidad real en el sector minero peruano: la dificultad de conectar propietarios de maquinaria pesada con empresas que necesitan alquilarla. Centralizamos catálogo, solicitudes, contratos y monitoreo IoT en una sola plataforma.",
+    "about.videoTitle": "Video promocional del producto",
+    "about.videoDesc":
+      "Conoce el modelo de negocio, las funcionalidades clave y los beneficios de MineTrack para propietarios y empresas mineras.",
 
     "how.title": "¿Cómo funciona?",
     "how.ownerLabel": "Para propietarios",
@@ -78,9 +82,13 @@ const translations = {
     "plans.perMonth": "/ mes",
     "plans.cta": "Elegir plan",
 
+    "team.eyebrow": "Sobre el equipo",
     "team.title": "Nuestro equipo",
     "team.body":
       "Estudiantes de Ingeniería de Software de la UPC, construyendo MineTrack como proyecto del curso Aplicaciones Web (1ASI0730).",
+    "team.videoTitle": "Nuestro proceso de trabajo",
+    "team.videoDesc":
+      "Un recorrido por las sesiones del equipo, la metodología aplicada y los logros alcanzados durante el sprint.",
     "team.role.lead": "Tech Lead / Arquitectura",
     "team.role.frontend": "Frontend developer",
     "team.photoPending": "Foto",
@@ -131,9 +139,13 @@ const translations = {
     "hero.ctaOwner": "I'm an owner",
     "hero.ctaClient": "I'm a mining company",
 
+    "about.eyebrow": "About the product",
     "about.title": "About us",
     "about.body":
       "MineTrack was born from a real need in the Peruvian mining sector: the difficulty of connecting heavy machinery owners with companies that need to rent them. We centralize catalog, requests, contracts and IoT monitoring in a single platform.",
+    "about.videoTitle": "Product promotional video",
+    "about.videoDesc":
+      "Learn about the business model, key features and benefits of MineTrack for owners and mining companies.",
 
     "how.title": "How does it work?",
     "how.ownerLabel": "For owners",
@@ -189,9 +201,13 @@ const translations = {
     "plans.perMonth": "/ month",
     "plans.cta": "Choose plan",
 
+    "team.eyebrow": "About the team",
     "team.title": "Our team",
     "team.body":
       "Software Engineering students at UPC, building MineTrack as a project for the Web Applications course (1ASI0730).",
+    "team.videoTitle": "Our work process",
+    "team.videoDesc":
+      "A walkthrough of team sessions, the methodology applied and achievements reached during the sprint.",
     "team.role.lead": "Tech Lead / Architecture",
     "team.role.frontend": "Frontend developer",
     "team.photoPending": "Photo",
