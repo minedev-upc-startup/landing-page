@@ -1,8 +1,3 @@
-/* ============================================================
-   MineTrack Landing — Internationalization (EN / ES)
-   Vanilla JS, no frameworks. Persists choice in localStorage.
-   ============================================================ */
-
 const translations = {
   es: {
     "nav.about": "Sobre nosotros",
@@ -10,6 +5,7 @@ const translations = {
     "nav.features": "Características",
     "nav.plans": "Planes",
     "nav.team": "Equipo",
+    "nav.videos": "Videos",
     "nav.faq": "FAQ",
 
     "hero.title": "Alquiler inteligente de maquinaria minera",
@@ -18,13 +14,9 @@ const translations = {
     "hero.ctaOwner": "Soy propietario",
     "hero.ctaClient": "Soy empresa minera",
 
-    "about.eyebrow": "Sobre el producto",
     "about.title": "Sobre nosotros",
     "about.body":
       "MineTrack nace de una necesidad real en el sector minero peruano: la dificultad de conectar propietarios de maquinaria pesada con empresas que necesitan alquilarla. Centralizamos catálogo, solicitudes, contratos y monitoreo IoT en una sola plataforma.",
-    "about.videoTitle": "Video promocional del producto",
-    "about.videoDesc":
-      "Conoce el modelo de negocio, las funcionalidades clave y los beneficios de MineTrack para propietarios y empresas mineras.",
 
     "how.title": "¿Cómo funciona?",
     "how.ownerLabel": "Para propietarios",
@@ -34,12 +26,15 @@ const translations = {
       "Recibe solicitudes de alquiler de empresas mineras verificadas.",
     "how.owner3":
       "Aprueba o rechaza con un clic. Define disponibilidad y reglas.",
-    "how.owner4": "Cobra por horas reales operadas, no por días calendario.",
+    "how.owner4":
+      "Cobra por horas reales operadas, no por días calendario.",
     "how.clientLabel": "Para empresas mineras",
     "how.client1":
       "Navega el catálogo público con filtros por tipo, marca y rango de precio.",
-    "how.client2": "Solicitará una máquina para un rango de fechas específico.",
-    "how.client3": "Recibe aprobación, contrato PDF y código de seguimiento.",
+    "how.client2":
+      "Solicita una máquina para un rango de fechas específico.",
+    "how.client3":
+      "Recibe aprobación, contrato PDF y código de seguimiento.",
     "how.client4":
       "Monitorea ubicación, horas de motor y estado en tiempo real.",
 
@@ -57,9 +52,11 @@ const translations = {
     "features.f4Body":
       "Cobro automático sobre horas reales operadas, no calendario.",
     "features.f5Title": "Sistema de reputación",
-    "features.f5Body": "Reseñas verificadas después de cada alquiler cerrado.",
+    "features.f5Body":
+      "Reseñas verificadas después de cada alquiler cerrado.",
     "features.f6Title": "Multidioma",
-    "features.f6Body": "Disponible en español e inglés desde el día uno.",
+    "features.f6Body":
+      "Disponible en español e inglés desde el día uno.",
 
     "plans.title": "Planes MineTrack",
     "plans.body":
@@ -70,7 +67,8 @@ const translations = {
       "Publica maquinaria ilimitada con fichas técnicas completas.",
     "plans.owner.f2":
       "Gestiona solicitudes y disponibilidad desde un solo panel.",
-    "plans.owner.f3": "Recibe pagos y reportes mensuales de uso por equipo.",
+    "plans.owner.f3":
+      "Recibe pagos y reportes mensuales de uso por equipo.",
     "plans.company.badge": "Empresas mineras",
     "plans.company.title": "Plan Empresa Minera",
     "plans.company.f1":
@@ -82,19 +80,24 @@ const translations = {
     "plans.perMonth": "/ mes",
     "plans.cta": "Elegir plan",
 
-    "team.eyebrow": "Sobre el equipo",
     "team.title": "Nuestro equipo",
     "team.body":
       "Estudiantes de Ingeniería de Software de la UPC, construyendo MineTrack como proyecto del curso Aplicaciones Web (1ASI0730).",
-    "team.videoTitle": "Nuestro proceso de trabajo",
-    "team.videoDesc":
-      "Un recorrido por las sesiones del equipo, la metodología aplicada y los logros alcanzados durante el sprint.",
     "team.role.lead": "Tech Lead / Arquitectura",
-    "team.role.frontend": "Frontend developer",
-    "team.photoPending": "Foto",
-    "team.role.catalog": "Catálogo",
-    "team.role.rentals": "Proceso de Alquiler",
-    "team.role.iot": "IoT / Monitoreo",
+    "team.role.frontend": "Frontend Developer",
+    "team.role.docs": "Documentación",
+
+    "videos.title": "Videos del equipo",
+    "videos.body":
+      "Conoce al equipo de MineTrack y revisa la presentación final del proyecto.",
+    "videos.teamBadge": "About the Team",
+    "videos.teamTitle": "Video About the Team",
+    "videos.teamBody":
+      "Presentación del equipo, roles y responsabilidades asumidas durante el desarrollo de MineTrack.",
+    "videos.finalBadge": "Final Presentation",
+    "videos.finalTitle": "Exposición Final",
+    "videos.finalBody":
+      "Presentación final del producto, funcionalidades implementadas, evidencias de despliegue y resultados alcanzados.",
 
     "faq.title": "Preguntas frecuentes",
     "faq.q1": "¿MineTrack cobra comisión por alquiler?",
@@ -105,7 +108,7 @@ const translations = {
       "No es obligatorio. Las funcionalidades de monitoreo IoT son opcionales y se activan por máquina cuando el dispositivo esté instalado.",
     "faq.q3": "¿Cómo se calcula el costo final del alquiler?",
     "faq.a3":
-      "El costo se calcula sobre horas operadas reales (medidas por el horómetro), con un mínimo diario garantizado para el propietario. Tarifas se congelan al momento de aprobación.",
+      "El costo se calcula sobre horas operadas reales, medidas por el horómetro, con un mínimo diario garantizado para el propietario. Las tarifas se congelan al momento de aprobación.",
     "faq.q4": "¿En qué regiones del Perú opera MineTrack?",
     "faq.a4":
       "Iniciamos operaciones piloto en las zonas mineras de Arequipa, Cajamarca y Junín, con expansión prevista a todo el territorio nacional.",
@@ -114,15 +117,11 @@ const translations = {
     "cta.body":
       "Únete a la red de propietarios y empresas mineras que ya están usando MineTrack.",
     "cta.access": "Acceder a la plataforma",
-    "cta.contact": "Contáctanos",
 
     "footer.tagline": "Alquiler inteligente de maquinaria minera",
-    "footer.contactTitle": "Contacto",
     "footer.socialTitle": "Síguenos",
     "footer.rights": "Todos los derechos reservados.",
     "footer.course": "UPC — 1ASI0730 Aplicaciones Web — Ciclo 5 — 2026-1",
-    "team.role.docs": "Documentación",
-    "team.role.frontend": "Frontend Developer",
   },
 
   en: {
@@ -131,6 +130,7 @@ const translations = {
     "nav.features": "Features",
     "nav.plans": "Plans",
     "nav.team": "Team",
+    "nav.videos": "Videos",
     "nav.faq": "FAQ",
 
     "hero.title": "Smart rental of mining machinery",
@@ -139,28 +139,29 @@ const translations = {
     "hero.ctaOwner": "I'm an owner",
     "hero.ctaClient": "I'm a mining company",
 
-    "about.eyebrow": "About the product",
     "about.title": "About us",
     "about.body":
       "MineTrack was born from a real need in the Peruvian mining sector: the difficulty of connecting heavy machinery owners with companies that need to rent them. We centralize catalog, requests, contracts and IoT monitoring in a single platform.",
-    "about.videoTitle": "Product promotional video",
-    "about.videoDesc":
-      "Learn about the business model, key features and benefits of MineTrack for owners and mining companies.",
 
     "how.title": "How does it work?",
     "how.ownerLabel": "For owners",
     "how.owner1":
       "Register your machines with photos, specifications and hourly rate.",
-    "how.owner2": "Receive rental requests from verified mining companies.",
+    "how.owner2":
+      "Receive rental requests from verified mining companies.",
     "how.owner3":
       "Approve or reject with one click. Define availability and rules.",
-    "how.owner4": "Charge by real operated hours, not by calendar days.",
+    "how.owner4":
+      "Charge by real operated hours, not by calendar days.",
     "how.clientLabel": "For mining companies",
     "how.client1":
       "Browse the public catalog with filters by type, brand and price range.",
-    "how.client2": "Request a machine for a specific date range.",
-    "how.client3": "Receive approval, PDF contract and tracking code.",
-    "how.client4": "Monitor location, engine hours and status in real time.",
+    "how.client2":
+      "Request a machine for a specific date range.",
+    "how.client3":
+      "Receive approval, PDF contract and tracking code.",
+    "how.client4":
+      "Monitor location, engine hours and status in real time.",
 
     "features.title": "Main features",
     "features.f1Title": "Centralized catalog",
@@ -176,9 +177,11 @@ const translations = {
     "features.f4Body":
       "Automatic charging on real operated hours, not calendar days.",
     "features.f5Title": "Reputation system",
-    "features.f5Body": "Verified reviews after each closed rental.",
+    "features.f5Body":
+      "Verified reviews after each closed rental.",
     "features.f6Title": "Multilanguage",
-    "features.f6Body": "Available in Spanish and English from day one.",
+    "features.f6Body":
+      "Available in Spanish and English from day one.",
 
     "plans.title": "MineTrack plans",
     "plans.body":
@@ -189,7 +192,8 @@ const translations = {
       "Publish unlimited machinery with complete technical sheets.",
     "plans.owner.f2":
       "Manage requests and availability from a single dashboard.",
-    "plans.owner.f3": "Receive payments and monthly equipment usage reports.",
+    "plans.owner.f3":
+      "Receive payments and monthly equipment usage reports.",
     "plans.company.badge": "Mining companies",
     "plans.company.title": "Mining company plan",
     "plans.company.f1":
@@ -201,19 +205,24 @@ const translations = {
     "plans.perMonth": "/ month",
     "plans.cta": "Choose plan",
 
-    "team.eyebrow": "About the team",
     "team.title": "Our team",
     "team.body":
       "Software Engineering students at UPC, building MineTrack as a project for the Web Applications course (1ASI0730).",
-    "team.videoTitle": "Our work process",
-    "team.videoDesc":
-      "A walkthrough of team sessions, the methodology applied and achievements reached during the sprint.",
     "team.role.lead": "Tech Lead / Architecture",
-    "team.role.frontend": "Frontend developer",
-    "team.photoPending": "Photo",
-    "team.role.catalog": "Catalog",
-    "team.role.rentals": "Rental Process",
-    "team.role.iot": "IoT / Monitoring",
+    "team.role.frontend": "Frontend Developer",
+    "team.role.docs": "Documentation",
+
+    "videos.title": "Team videos",
+    "videos.body":
+      "Meet the MineTrack team and review the final project presentation.",
+    "videos.teamBadge": "About the Team",
+    "videos.teamTitle": "Video About the Team",
+    "videos.teamBody":
+      "Presentation of the team, roles and responsibilities assumed during the development of MineTrack.",
+    "videos.finalBadge": "Final Presentation",
+    "videos.finalTitle": "Final Presentation",
+    "videos.finalBody":
+      "Final product presentation, implemented features, deployment evidence and achieved results.",
 
     "faq.title": "Frequently asked questions",
     "faq.q1": "Does MineTrack charge commission on rentals?",
@@ -224,7 +233,7 @@ const translations = {
       "It's not mandatory. IoT monitoring features are optional and activate per machine when the device is installed.",
     "faq.q3": "How is the final rental cost calculated?",
     "faq.a3":
-      "The cost is calculated on real operated hours (measured by the hour meter), with a guaranteed daily minimum for the owner. Rates are frozen at the moment of approval.",
+      "The cost is calculated on real operated hours, measured by the hour meter, with a guaranteed daily minimum for the owner. Rates are frozen at the moment of approval.",
     "faq.q4": "In which regions of Peru does MineTrack operate?",
     "faq.a4":
       "We start pilot operations in the mining areas of Arequipa, Cajamarca and Junín, with planned expansion to the entire national territory.",
@@ -233,28 +242,28 @@ const translations = {
     "cta.body":
       "Join the network of owners and mining companies that are already using MineTrack.",
     "cta.access": "Access the platform",
-    "cta.contact": "Contact us",
 
     "footer.tagline": "Smart rental of mining machinery",
-    "footer.contactTitle": "Contact",
     "footer.socialTitle": "Follow us",
     "footer.rights": "All rights reserved.",
     "footer.course": "UPC — 1ASI0730 Web Applications — Cycle 5 — 2026-1",
-    "team.role.docs": "Documentation",
-    "team.role.frontend": "Frontend Developer",
   },
 };
 
 /* ------------------------------------------------------------
    i18n core
    ------------------------------------------------------------ */
+
 function applyLanguage(lang) {
   document.documentElement.lang = lang;
 
   document.querySelectorAll("[data-i18n]").forEach((el) => {
     const key = el.getAttribute("data-i18n");
     const text = translations[lang]?.[key];
-    if (text) el.textContent = text;
+
+    if (text) {
+      el.textContent = text;
+    }
   });
 
   document.querySelectorAll(".lang-btn").forEach((btn) => {
@@ -267,14 +276,18 @@ function applyLanguage(lang) {
 /* ------------------------------------------------------------
    Boot
    ------------------------------------------------------------ */
+
 document.addEventListener("DOMContentLoaded", () => {
   const savedLang = localStorage.getItem("minetrack.landing.lang");
+
   const browserLang = (navigator.language || "es")
     .toLowerCase()
     .startsWith("en")
     ? "en"
     : "es";
+
   const initial = savedLang || browserLang;
+
   applyLanguage(initial);
 
   document.querySelectorAll(".lang-btn").forEach((btn) => {
